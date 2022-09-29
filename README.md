@@ -23,6 +23,9 @@ Using <code>funcReduceSpaces(strInput)</code> will return:
 I know that popular belief is that using Trim(strInput) will remove extra spaces. It will
 remove them but only at the beginning or end. It does not remove them mid string.
 
+NOTE: This will be used with user input that is immediately processed by VBA. You won't
+be able to use this in a forumla unless the formula is grabbing user input from another cell.
+
 Download the example workbook and look in the VBA editor, there are a couple testing
 subroutines in there. You can copy and paste the code into your project or import
 the replace_spaces.bas in the repository.
