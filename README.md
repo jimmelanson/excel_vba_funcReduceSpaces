@@ -7,7 +7,7 @@ with procedures that required specific formatting of input (it was a technical e
 so I was even doubly frustrated because she knew it was a problem). So this is what
 I came up to deal with it. It goes back to the old programmers adage:
 
-###Never trust users to enter what you expect them to enter.
+**Never trust users to enter what you expect them to enter.**
 
 This procedure will accept a string and return a string. It looks for multiple
 contiguous spaces and then reduces them to a single space.
