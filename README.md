@@ -14,7 +14,7 @@ contiguous spaces and then reduces them to a single space.
 
 For example:
 
-strInput = "This is a sentence  with an extra   space or three."
+strInput = "This is a sentence  with an &nbsp;extra &nbsp;&nbsp;space &nbsp;&nbsp;&nbsp;or three."
 
 Using <code>funcReduceSpaces(strInput)</code> will return:
 
